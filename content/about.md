@@ -1,7 +1,7 @@
 +++
 categories = ["misc"]
 date = "2017-06-18T00:28:09Z"
-draft = "true"
+draft = "false"
 title = "About Me"
 
 +++
