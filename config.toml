@@ -1,3 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "http://coryrenard.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Stuff and stuff"
+newContentEditor = "nano"
+theme = "nofancy"
+pygmentsStyle = "native"
