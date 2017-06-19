@@ -1,5 +1,15 @@
 box: wercker/default
 
+steps:
+  - me6iaton/hugo-build@1.0.1
+
+build:
+  steps:
+    - arjen/hugo-build:
+        bin: bin/hugo-linux-x64
+        theme: hyde
+        
+
 deploy:
     steps:
         - s3sync:
