@@ -1,8 +1,7 @@
-box: debian
+box: golang
 build:
   steps:
-    - samueldebruyn/hugo-theme-check:
-        theme: nofancy
+  - koldovsky/hugo-build@1.16.5
 
 deploy:
   steps:
