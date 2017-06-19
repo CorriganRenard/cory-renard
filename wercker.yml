@@ -1,10 +1,12 @@
 box: debian
-
 build:
   steps:
     - arjen/hugo-build:
-      version: "0.15"
-      theme: "rw-theme"
+        version: "0.17"
+        theme: nofancy
+        config: my-production-config.toml
+        dev_flags: -D -F
+        prod_branches: master
 
 deploy:
   steps:
