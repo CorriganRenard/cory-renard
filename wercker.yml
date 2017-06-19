@@ -1,7 +1,19 @@
-box: golang
+box: debian
 build:
   steps:
-  - koldovsky/hugo-build@1.16.5
+    - script:
+        name: install git
+        code: |
+          apt-get update
+          apt-get -y install git
+    - script:
+        name: download theme
+        code: |
+          git clone https://github.com/gizak/nofancy.git themes/nofancy
+          rm -rf themes/nofancy/.git
+    - arjen/hugo-build:
+        version: "0.15"
+        theme: nofancy
 
 deploy:
   steps:
