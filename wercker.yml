@@ -1,12 +1,12 @@
 box: debian 
 build:
   steps:
-    - install-packages:
-        packages: git
-    - script:
-        name: download theme
-        code: |
-            $(git clone https://github.com/dencold/hasper.git themes/hasper)
+#    - install-packages:
+#        packages: git
+#    - script:
+#        name: download theme
+#        code: |
+#           $(git clone https://github.com/dencold/hasper.git themes/hasper)
     - arjen/hugo-build:
         version: "0.14"
         theme: hasper
