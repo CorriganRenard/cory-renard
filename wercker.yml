@@ -1,12 +1,8 @@
-box: debian
+box: wercker/default
 build:
   steps:
-    - arjen/hugo-build:
-        version: "0.17"
+    - samueldebruyn/hugo-theme-check:
         theme: nofancy
-        config: my-production-config.toml
-        dev_flags: -D -F
-        prod_branches: master
 
 deploy:
   steps:
