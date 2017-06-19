@@ -9,7 +9,7 @@ build:
     - script:
         name: download theme
         code: |
-          git clone https://github.com/gizak/nofancy.git /pipeline/source/themes/nofancy
+          git clone https://github.com/gizak/nofancy.git 
           rm -rf themes/nofancy/.git
     - arjen/hugo-build:
         version: "0.15"
