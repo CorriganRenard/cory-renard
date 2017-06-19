@@ -1,17 +1,16 @@
 box: debian
 build:
   steps:
-    - nstall-packages:
+    - install-packages:
         packages: git
     - script:
         name: download theme
         code: |
-          $(git clone https://github.com/dencold/hasper.git ./themes/hasper) 
+            $(git clone https://github.com/dencold/hasper.git ./themes/hasper)
     - arjen/hugo-build:
-        version: "0.15"
+        version: "0.14"
         theme: hasper
-	flags: --buildDrafts=true
-
+        flags: --buildDrafts=true
 deploy:
   steps:
     - s3sync:
