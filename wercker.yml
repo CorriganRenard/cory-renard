@@ -1,19 +1,16 @@
 box: debian
 build:
   steps:
-    - script:
-        name: install git
-        code: |
-          apt-get update
-          apt-get -y install git
+    - nstall-packages:
+        packages: git
     - script:
         name: download theme
         code: |
-          git clone -rf https://github.com/gizak/nofancy.git /pipeline/source/themes/nofancy 
-          rm -rf themes/nofancy/.git
+          $(git clone https://github.com/dencold/hasper.git ./themes/hasper) 
     - arjen/hugo-build:
         version: "0.15"
-        theme: nofancy
+        theme: hasper
+	flags: --buildDrafts=true
 
 deploy:
   steps:
