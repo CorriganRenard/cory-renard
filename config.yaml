@@ -6,7 +6,7 @@ theme: "hasper"                             # theme you'd like to use for genera
 paginate: 5                                 # number of posts per page that are displayed
 copyright: "All rights reserved - 2017"     # copyright details, if set, will appear in site footer
 buildDrafts: true                           # include content marked as draft
-canonifyurls: false                          # TODO: what does this do exactly?
+canonifyurls: true                          # TODO: what does this do exactly?
 #disqusShortname: "YOUR_SHORT_NAME_HERE"     # if using disqus, username is set here
 metaDataFormat: "yaml"                      # toml, yaml, or json
 
