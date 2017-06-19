@@ -23,9 +23,9 @@ themesdir: "themes"
 # theme/site specific configuration
 params:
   description: "Coding on the go"   # subtitle that appears under the site's title
-  #cover: "/img/cover.jpg"                   # main image used for cover splashpage
-  #fullCover: true                           # fullscreen cover (true) or allow a peek of content (false) defaults to true
-  #logo: "/img/logo.svg"                     # site logo. appears in upper-left corner of site
+  cover: "/img/cover.jpg"                   # main image used for cover splashpage
+  fullCover: true                           # fullscreen cover (true) or allow a peek of content (false) defaults to true
+  logo: "/img/logo.svg"                     # site logo. appears in upper-left corner of site
   author: "cory"                          # default site author
   creativeCommons: "by-sa"                  # if you license using creative commons, set this to be your license type. Requires .Site.copyright to be set as well.
   hideHUGOSupport: true                     # by default, hasper puts a nod to hugo in footer, set to true if you wish to hide
@@ -63,13 +63,13 @@ author:
 
 # menu config. this section defines the area that appears when the user clicks
 # the hamburger menu in upper-right hand corner of the site.
-#menu:
-#  main:
-#    - name: "Blog"                          # name that appears in the menu list
-#      weight: -120                          # order it appears more negative == closer to top of list
-#      identifier: "blog"                    # TODO: not sure what this is responsible for
-#      url: "/"                              # link address to use when user clicks on menu option
-#    - name: "About"
-#      weight: -110
-#      identifier: "about"
-#      url: "/about"
+menu:
+  main:
+    - name: "Blog"                          # name that appears in the menu list
+      weight: -120                          # order it appears more negative == closer to top of list
+      identifier: "blog"                    # TODO: not sure what this is responsible for
+      url: "/"                              # link address to use when user clicks on menu option
+    - name: "About"
+      weight: -110
+      identifier: "about"
+      url: "/about"
