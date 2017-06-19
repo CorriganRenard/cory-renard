@@ -1,15 +1,15 @@
 box: debian 
 build:
   steps:
-#    - install-packages:
-#        packages: git
-#    - script:
-#        name: download theme
-#        code: |
-#           $(git clone https://github.com/dencold/hasper.git themes/hasper)
+    - install-packages:
+        packages: git
+    - script:
+        name: download theme
+        code: |
+           $(git clone https://github.com/spf13/herring-cove.git ./themes/herring-cove)
     - arjen/hugo-build:
         version: "0.14"
-        theme: hasper
+        theme: herring-cove
         flags: --buildDrafts=true
 deploy:
   steps:
