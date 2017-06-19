@@ -6,11 +6,11 @@ build:
         code: |
           apt-get update
           apt-get -y install git
-#    - script:
-#        name: download theme
-#        code: |
-#          git clone https://github.com/gizak/nofancy.git themes/nofancy
-#          rm -rf themes/nofancy/.git
+    - script:
+        name: download theme
+        code: |
+          git clone https://github.com/gizak/nofancy.git /pipeline/source/themes
+          rm -rf themes/nofancy/.git
     - arjen/hugo-build:
         version: "0.15"
         theme: nofancy
