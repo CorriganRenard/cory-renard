@@ -3,6 +3,6 @@ box: wercker/default
 deploy:
     steps:
         - s3sync:
-            key-id: AKIAJO7OU3XOLCT7GT3A
-            key-secret: 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
-            bucket-url: coryrenard.com
+            key-id: $AWS_ACCESS_KEY_ID
+            key-secret: $AWS_SECRET_ACCESS_KEY
+            bucket-url: $AWS_BUCKET_URL
