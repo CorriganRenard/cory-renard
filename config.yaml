@@ -1,5 +1,5 @@
 ---
-baseurl: "http://www.coryrenard.com/"        # hostname (and path) to the root, e.g. http://spf13.com/
+baseurl: "coryrenard.com/"        # hostname (and path) to the root, e.g. http://spf13.com/
 languageCode: "en-us"                       # language to use in meta headers
 title: "Cory Central"                          # title that appears on main splash page for site
 theme: "hasper"                             # theme you'd like to use for generating the site
