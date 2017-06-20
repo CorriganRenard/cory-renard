@@ -16,7 +16,7 @@ build:
         disable_pygments: true
         #theme: herring-cove
         #theme: hasper
-        theme: material-design
+        theme: hugo-theme-minos
         flags: --buildDrafts=true
 deploy:
   steps:
