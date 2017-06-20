@@ -8,7 +8,7 @@ build:
         code: |
             #$(git clone https://github.com/spf13/herring-cove ./themes/herring-cove)
             #$(git clone https://github.com/dencold/hasper.git ./themes/hasper)
-            $(git clone https://github.com/pdevty/material-design ./themes/material-design)
+            git clone https://github.com/pdevty/material-design ./themes/material-design
             
     - arjen/hugo-build:
         version: "0.23"
