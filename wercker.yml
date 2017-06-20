@@ -17,7 +17,7 @@ build:
         #theme: herring-cove
         #theme: hasper
         theme: hugo-theme-minos
-        flags: --buildDrafts=true
+        flags: --buildDrafts=true --canonifyURLs=false
 deploy:
   steps:
     - s3sync:
