@@ -1,4 +1,3 @@
-
 theme="hugo-theme-minos"
 baseurl = "http://www.coryrenard.com/"        # hostname (and path) to the root, e.g. http://spf13.com/
 languageCode = "en-us"
