@@ -2,7 +2,7 @@
 baseurl: "https://coryrenard.com.s3-website-us-west-2.amazonaws.com/"        # hostname (and path) to the root, e.g. http://spf13.com/
 languageCode: "en-us"                       # language to use in meta headers
 title: "Cory Renard's Thoughts"                          # title that appears on main splash page for site
-theme: "hasper"                             # theme you'd like to use for generating the site
+theme: ""                             # theme you'd like to use for generating the site
 paginate: 5                                 # number of posts per page that are displayed
 copyright: "All rights reserved - 2017"     # copyright details, if set, will appear in site footer
 buildDrafts: true                           # include content marked as draft
@@ -42,14 +42,7 @@ author:
     location: "Pacific NW"                # author's whereabouts
     bio: "Coding in the beatiful Pacific NW"  # short bio, appears below author details on post
     thumbnail: "/img/avatar.jpg"            # author's avatar
-  mikasa:
-    id: "mikasa"
-    firstName: "Mikasa"
-    lastName: "Ackerman"
-    location: "Shiganshina"
-    bio: "Better try something than to simply wait for death."
-    thumbnail: "/img/mikasa.jpg"
-
+ 
 
 # menu config. this section defines the area that appears when the user clicks
 # the hamburger menu in upper-right hand corner of the site.
