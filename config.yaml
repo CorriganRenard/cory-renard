@@ -15,4 +15,4 @@ params:
   links:
     Home : "/"
     Blog: "/post/"
-    About: "post/about/"
+    About: "/post/about/"
