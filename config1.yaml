@@ -1,0 +1,18 @@
+baseurl: "http://coryrenard.com.s3-website-us-west-2.amazonaws.com"        # hostname (and path) to the root, e.g. http://spf13.com/
+languageCode: "en-us"                       # language to use in meta headers
+title: "Cory Central"                          # title that appears on main splash page for site
+theme: "hasper"                             # theme you'd like to use for generating the site
+paginate: 5                                 # number of posts per page that are displayed
+copyright: "All rights reserved - 2017"     # copyright details, if set, will appear in site footer
+buildDrafts: true                           # include content marked as draft
+canonifyurls: false                         # TODO: what does this do exactly?
+#disqusShortname: "YOUR_SHORT_NAME_HERE"     # if using disqus, username is set here
+metaDataFormat: "yaml"                      # toml, yaml, or json
+
+
+params:
+  ProfilePicture: "pathOrUrlToImage"
+  links:
+    Home : "/"
+    Blog: "/post/"
+    About: "/post/about/"
