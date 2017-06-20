@@ -8,7 +8,7 @@ disqusShortname = "Your Disqus Name" # optional
 copyright = "© 2017 Copyright Text"
 
 [params]
-  description = "A place to put my thoughts # optional
+  description = "A place to put my thoughts" # optional
   twitter = "Your Twitter Name" # optional
   gitlab = "Your Gitlab Name" # optional
   github = "Your Github Name" # optional
