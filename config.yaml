@@ -1,5 +1,5 @@
 ---
-baseurl: "https://coryrenard.com.s3-website-us-west-2.amazonaws.com/"        # hostname (and path) to the root, e.g. http://spf13.com/
+baseurl: "http://coryrenard.com.s3-website-us-west-2.amazonaws.com"        # hostname (and path) to the root, e.g. http://spf13.com/
 languageCode: "en-us"                       # language to use in meta headers
 title: "Cory Renard's Thoughts"                          # title that appears on main splash page for site
 theme: ""                             # theme you'd like to use for generating the site
