@@ -1,10 +1,8 @@
 +++
-Categories = ["Development", "Golang"]
-Description = "a test"i
-Tags = ["development", "golang"]
-date = "2017-06-20T15:11:10-07:00"
-menu = ""
-title = "all for one"
+categories = ["misc"]
+date = "2017-06-18T00:32:18Z"
+draft = "false"
+title = "My First Post"
 
 +++
 
