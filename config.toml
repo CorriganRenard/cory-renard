@@ -1,5 +1,5 @@
 theme="hugo-theme-minos"
-baseurl = "http://www.coryrenard.com/"        # hostname (and path) to the root, e.g. http://spf13.com/
+baseurl = "https://www.coryrenard.com/"        # hostname (and path) to the root, e.g. http://spf13.com/
 languageCode = "en-us"
 title = "Cory Renard"
 paginate = 10
