@@ -1,6 +1,6 @@
 
 theme="hugo-theme-minos"
-baseurl = "http://coryrenard.com.s3-website-us-west-2.amazonaws.com/"        # hostname (and path) to the root, e.g. http://spf13.com/languageCode = "en-us"
+baseurl = "coryrenard.com"        # hostname (and path) to the root, e.g. http://spf13.com/languageCode = "en-us"
 title = "Cory Renard"
 paginate = 10
 MetaDataFormat = "toml"
