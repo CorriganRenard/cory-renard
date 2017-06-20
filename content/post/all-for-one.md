@@ -7,4 +7,5 @@ menu = ""
 title = "all for one"
 
 +++
+
 this is a test post.
