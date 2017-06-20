@@ -14,5 +14,5 @@ params:
   ProfilePicture: "pathOrUrlToImage"
   links:
     Home : "/"
-    Blog: "/blog/"
-    About: "/about/"
+    Blog: "/post/"
+    About: "post/about/"
