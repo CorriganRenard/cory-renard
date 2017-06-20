@@ -18,6 +18,7 @@ build:
         #theme: hasper
         theme: hugo-theme-minos
         flags: --buildDrafts=true --canonifyURLs=false
+        
 deploy:
   steps:
     - s3sync:
