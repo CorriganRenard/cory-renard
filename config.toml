@@ -1,6 +1,6 @@
 
 theme="material-design"
-baseurl: "http://coryrenard.com.s3-website-us-west-2.amazonaws.com"        # hostname (and path) to the root, e.g. http://spf13.com/languageCode = "en-us"
+baseurl = "http://coryrenard.com.s3-website-us-west-2.amazonaws.com"        # hostname (and path) to the root, e.g. http://spf13.com/languageCode = "en-us"
 title = "Cory Renard"
 MetaDataFormat = "toml"
 paginate = 9 # To specify a multiple of 3
