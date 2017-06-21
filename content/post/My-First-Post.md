@@ -13,7 +13,7 @@ This is my first post on the site.  I hope that you like it!
 Here is the simplest https server in go to welcome you:
 
 
-{{< highlight language >}}
+```golang
 
 package main
 
@@ -33,4 +33,4 @@ func main() {
 	log.Fatal(http.ListenAndServe(":12345", nil))
 }
 
-{{< /highlight >}}
+```

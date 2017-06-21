@@ -4,8 +4,8 @@ languageCode = "en-us"
 title = "Cory Renard"
 paginate = 10
 MetaDataFormat = "toml"
-canonifyURLs = false
-copyright = "© 2017 Copyright Text"
+canonifyURLs = true
+copyright = "© 2017"
 
 [params]
   smartToc = true
