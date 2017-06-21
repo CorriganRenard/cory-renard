@@ -1,5 +1,5 @@
 theme="hugo-theme-minos"
-baseurl = "dixeyqnpuqowe.cloudfront.net/"        # hostname (and path) to the root, e.g. http://spf13.com/
+baseurl = "http://dixeyqnpuqowe.cloudfront.net/"        # hostname (and path) to the root, e.g. http://spf13.com/
 languageCode = "en-us"
 title = "Cory Renard"
 paginate = 10
