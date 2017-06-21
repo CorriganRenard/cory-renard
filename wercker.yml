@@ -27,3 +27,9 @@ deploy:
       bucket-url: $AWS_BUCKET_URL
       key-id: $AWS_ACCESS_KEY_ID
       key-secret: $AWS_SECRET_ACCESS_KEY
+
+    - maestrohealthcaretechnologies/invalidate-cloudfront:
+          key: $AWS_ACCESS_KEY_ID
+          secret: $AWS_SECRET_ACCESS_KEY
+          distribution: $CLOUDFRONT_DISTRIBUTION_ID
+          paths: /*
