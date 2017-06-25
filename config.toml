@@ -7,6 +7,9 @@ MetaDataFormat = "toml"
 canonifyURLs = true
 copyright = "© 2017"
 
+[permalinks]
+	top = "/:filename/"
+
 [params]
   smartToc = true
   description = "A place to put my thoughts" # optional
@@ -26,8 +29,8 @@ copyright = "© 2017"
       weight = -110
       identifier = "about"
       url = "/about/"
-  [[menu.main]]
-      name = "getting started"
-      pre = "<i class='fa fa-road'></i>"
-      weight = -100
-      url = "/getting-started/"
+  #[[menu.main]]
+  #    name = "getting started"
+  #    pre = "<i class='fa fa-road'></i>"
+  #    weight = -100
+  #    url = "/getting-started/"
