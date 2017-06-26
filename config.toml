@@ -29,6 +29,13 @@ copyright = "© 2017"
       weight = -110
       identifier = "about"
       url = "/about/"
+
+	[[menu.main]]
+      name = "contact"
+      pre = "<i class='fa fa-heart'></i>"
+      weight = -110
+      identifier = "contact"
+      url = "/contact/"
   #[[menu.main]]
   #    name = "getting started"
   #    pre = "<i class='fa fa-road'></i>"

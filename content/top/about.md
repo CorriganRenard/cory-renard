@@ -6,6 +6,7 @@ title = "About me"
 nodateline = "true"
 type = "top"
 notoc = "true"
+draft = "false"
 
 +++
 
@@ -17,4 +18,4 @@ Having been coding here and there since 2007, I started my journey in earnest in
 
 I have worked with a wide range of technologies from C# and .net to Javascript, Python and Go.
 
-I am the father of two beautiful twin girls and husband to a pro videographer.  We currently make our home between the mountains and the sea, in the sprawling forests of the Pacific Northwest.
+I am the father of twin girls and husband to a beautiful, talented wife.  We currently make our home between the mountains and the sea, in the sprawling forests of the Pacific Northwest.
