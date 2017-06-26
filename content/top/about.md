@@ -9,7 +9,7 @@ notoc = "true"
 
 +++
 
-<img src="/coryrenard.jpg" alt="Cory Renard" align="right">
+<img src="/coryrenard.jpg" alt="Cory Renard" align="right" width="400">
 
 I am a developer and systems administrator.
 
