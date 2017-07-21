@@ -12,10 +12,25 @@ draft = "false"
 
 <img src="/coryrenard.jpg" alt="Cory Renard" align="right" width="400">
 
-I am a developer and systems administrator.
+I'm Cory. Here's some stuff about me.
 
-Having been coding here and there since 2007, I started my journey in earnest in January of 2015.
+**coding work:**
+C#, Javascript, Python.
 
-I have worked with a wide range of technologies from C# and .net to Javascript, Python and Go.
+**coding fun:**
+Go.
 
-I am the father of twin girls and husband to a beautiful, talented wife.  We currently make our home between the mountains and the sea, in the sprawling forests of the Pacific Northwest.
+**video:**
+a6500, Mavic Pro, Gopro, Premier Pro. ...hmmm, I see a theme forming.
+
+**sports:**
+running, skating, biking, extreme toddler wrangling.
+
+**music:**
+Playlist of a two year old. Happens to be Dwayne Johnson singing "You're Welcome" right now.
+
+**waste time:**
+Never if I can help it.
+
+
+I am the father of twin girls and husband to a beautiful, talented wife.  We currently make our home in the forests of the Pacific Northwest.
