@@ -10,10 +10,25 @@ draft = "false"
 
 +++
 
-<img src="/coryrenard.jpg" alt="Cory Renard" width="400">
+<img src="/coryrenard.jpg" alt="Cory Renard" align="right" width="400">
+
 
 
 Who Am I? To answer this question, I'll have to start at the beginning.
+
+But what if there is no begining.
+
+And what if the beginning was actually the middle?
+
+What is the part between beginning and middle? The begiddle?
+
+Once upon a time there lived a coder who was handsome and funny. He lived between the mountians and the sea. He ate off the land, and the land ate off him. 
+
+The world was cold. But sometimes warm. And the flowers bloomed through the snow. 
+
+
+
+<!-- Who Am I? To answer this question, I'll have to start at the beginning.
 
 But what if there were no begining, and no end.
 
@@ -25,7 +40,7 @@ Once upon a time there was a coder who was very handsome and funny. He lived bet
 
 The world was cold. But sometimes warm. And the flowers bloomed through the snow. 
 
-
+ -->
 
 
 
