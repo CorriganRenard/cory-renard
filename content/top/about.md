@@ -2,7 +2,7 @@
 Description = "About Cory Renard"
 date = "2017-06-24T00:07:23-07:00"
 menu = ""
-title = "Simply Programming"
+title = "About Me"
 nodateline = "true"
 type = "top"
 notoc = "true"
@@ -10,14 +10,14 @@ draft = "false"
 
 +++
 
-<img src="/coryrenard.jpg" alt="Cory Renard" align="right" width="400">
+<img src="/coryrenard.jpg" alt="Cory Renard" width="400">
 
 
 Who Am I? To answer this question, I'll have to start at the beginning.
 
-What if there were no begining, and no end.
+But what if there were no begining, and no end.
 
-What if the beginning and the end were actually the middle.
+And what if the beginning and the end were actually the middle?
 
 What are the parts between beginning and middle, middle and end? The begiddle and the mind?
 
