@@ -6,11 +6,9 @@
         </header>
         {{ end }}
         <div class="article-meta">
-            {{ if not .Params.nodateline }}
             <a href="{{ .RelPermalink }}" class="article-date">
                 <time datetime='{{ .Date.Format "2006-01-02T15:04:05.000-07:00" }}' itemprop="datePublished">{{ .Date.Format "2006-01-02" }}</time>
             </a>
-            {{end}}
             {{ $Site := .Site }}
             {{ if .Params.categories }}
             <div class="post-categories">
@@ -19,7 +17,7 @@
                     {{ if gt $i 0 }}
                     <span>&gt;</span>
                     {{ end }}
-                    <a class="article-category-link" href="{{ $Site.BaseURL }}categories/{{ $e | urlize }}">{{ $e }}</a>
+                    <a class="article-category-link" href="{{ $Site.BaseURL }}/categories/{{ $e | urlize }}">{{ $e }}</a>
                     {{ end }}
                 </div>
             </div>

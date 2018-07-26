@@ -14,17 +14,6 @@ draft = "false"
 
 
 
-Who Am I? To answer this question, I'll have to start at the beginning.
-
-But what if there is no begining.
-
-And what if the beginning was actually the middle?
-
-What is the part between beginning and middle? The begiddle?
-
-Once upon a time there lived a coder who was handsome and funny. He lived between the mountians and the sea. He ate off the land, and the land ate off him. 
-
-The world was cold. But sometimes warm. And the flowers bloomed through the snow. 
 
 
 
